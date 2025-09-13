@@ -23,7 +23,7 @@ const Footer = () => {
             </p>
 
             {/* Socials */}
-            
+
             <div className="flex space-x-4">
               <a
                 href="#"
