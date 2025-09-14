@@ -49,15 +49,9 @@ const Navbar = () => {
             <img
               src={logo}
               alt="Doak Logo"
-              className="h-10 w-auto object-contain"
+              className="h-16 w-auto object-contain"
             />
-            <span
-              className={`text-xl font-bold transition-colors ${
-                isScrolled ? "text-gray-900" : "text-white"
-              }`}
-            >
-              Doak
-            </span>
+            
           </a>
 
           {/* Desktop Navigation */}
@@ -87,7 +81,7 @@ const Navbar = () => {
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className={`lg:hidden p-2 transition-colors ${
-              isScrolled ? "text-gray-700" : "text-white"
+              isScrolled ? "text-white" : "text-white"
             }`}
             aria-label="Toggle menu"
           >

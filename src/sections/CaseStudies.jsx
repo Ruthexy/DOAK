@@ -8,7 +8,7 @@ const CaseStudies = () => {
     { number: '15', label: 'Warehouses Operated', suffix: '' },
     { number: '35', label: 'Patents Filed', suffix: '%' },
     { number: '99.8', label: 'On-Time Delivery', suffix: '%' },
-    { number: '$50M', label: 'Revenue Generated', prefix: '$' }
+    { number: '50M', label: 'Revenue Generated', prefix: '#' }
   ];
 
   const caseStudies = [
@@ -24,7 +24,7 @@ const CaseStudies = () => {
       challenge: 'Required premium market access for 500+ organic farms',
       solution: 'Connected them to European organic food processors',
       result: 'Achieved 25% premium pricing and secured long-term contracts',
-      metric: 'Additional Revenue: $12M annually'
+      metric: 'Additional Revenue: #12M annually'
     },
     {
       title: 'Precision Agriculture Group',

@@ -5,37 +5,37 @@ const Testimonials = () => {
   const testimonials = [
     {
       quote: "Doak transformed our grain operation. Their trading expertise and warehousing solutions helped us increase profitability by 35% while reducing risk. The team truly understands the complexities of modern agriculture.",
-      author: "Sarah Mitchell",
+      author: "Ayomide Michael",
       role: "Operations Director",
       company: "Heartland Grain Cooperative"
     },
     {
       quote: "The R&D partnership with Doak has been game-changing. Their data-driven approach helped us develop three new corn varieties with 20% higher yields. Their technology platform is intuitive and powerful.",
-      author: "Dr. James Rodriguez",
+      author: "Dr. James Paul",
       role: "Chief Research Officer",
       company: "AgriTech Innovations"
     },
     {
       quote: "Working with Doak's IT team revolutionized our supply chain visibility. Real-time tracking and predictive analytics have reduced our logistics costs by 25% while improving delivery reliability to 99.8%.",
-      author: "Michael Chen",
+      author: "Ugochukwu Eze",
       role: "Supply Chain Manager",
       company: "Green Valley Produce"
     },
     {
-      quote: "Doak's commodity trading expertise opened new markets for our organic soybeans. They secured premium contracts with European buyers that increased our revenue by $2M annually. Highly recommend their services.",
-      author: "Lisa Thompson",
+      quote: "Doak's commodity trading expertise opened new markets for our organic soybeans. They secured premium contracts with European buyers that increased our revenue by #2M annually. Highly recommend their services.",
+      author: "Abraham Okonkwo",
       role: "CEO",
       company: "Organic Harvest Network"
     },
     {
       quote: "The warehousing solution Doak implemented exceeded our expectations. Climate control and monitoring systems preserved grain quality perfectly, reducing spoilage to near zero. Excellent ROI.",
-      author: "Robert Johnson",
+      author: "Valentine Maduka",
       role: "Facilities Manager",
       company: "Prairie State Grains"
     },
     {
       quote: "Doak's comprehensive approach to agribusiness is unmatched. From trading to technology, every service is delivered with professionalism and deep industry knowledge. They've become our trusted partner.",
-      author: "Amanda Foster",
+      author: "Amanda Phillips",
       role: "VP of Operations",
       company: "Midwest AgriGroup"
     }
