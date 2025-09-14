@@ -19,8 +19,9 @@ const Navbar = () => {
     { href: "#services", label: "Services" },
     { href: "#case-studies", label: "Case Studies" },
     { href: "#testimonials", label: "Testimonials" },
-    { href: "#blog", label: "Blog" },
+    { href: "#insight", label: "Insight" },
     { href: "#contact", label: "Contact" },
+    {href:"vision-mission", label: "Vision & Mission"}
   ];
 
   const scrollToSection = (e, href) => {
@@ -124,13 +125,13 @@ const Navbar = () => {
                   {item.label}
                 </a>
               ))}
-              <a
+              {/* <a
                 href="#contact"
                 onClick={(e) => scrollToSection(e, "#contact")}
                 className="bg-red-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-red-700 transition-colors text-center"
               >
                 Get Quote
-              </a>
+              </a> */}
             </div>
           </div>
         )}

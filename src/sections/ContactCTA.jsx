@@ -15,7 +15,8 @@ const ContactCTA = () => {
     },
     {
       question: "What R&D services do you offer for crop improvement?",
-      answer: "Our R&D division focuses on yield optimization, variety development, soil health analysis, and sustainable farming practices. We use cutting-edge technology including AI, precision agriculture tools, and genetic analysis to develop innovative solutions tailored to your specific needs."
+      answer: "We exist to help farmers, agribusinesses, and enterprises overcome inefficiencies by applying data, innovation, and digital tools that transform how food and resources move from production to market."
+
     },
     {
       question: "Can you integrate with our existing farm management software?",

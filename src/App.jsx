@@ -5,9 +5,11 @@ import Hero from './sections/Hero';
 import Services from './sections/Services';
 import CaseStudies from './sections/CaseStudies';
 import Testimonials from './sections/Testimonials';
-import BlogPreview from './sections/BlogPreview';
+import WhatWeDo from './sections/WhatWeDo';
 import ContactCTA from './sections/ContactCTA';
+import VisionMission from './sections/VisionMission';
 import Footer from './components/Footer';
+
 
 function App() {
   return (
@@ -83,7 +85,8 @@ function App() {
           <Services />
           <CaseStudies />
           <Testimonials />
-          <BlogPreview />
+          <WhatWeDo />
+          <VisionMission />
           <ContactCTA />
         </main>
         <Footer />

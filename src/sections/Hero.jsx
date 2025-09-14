@@ -38,8 +38,8 @@ const Hero = () => {
               }`}
             >
               From Field to Market—{" "}
-              <span className="text-red-500">Seamless Supply-Chains</span>,
-              Smarter Agri-Business.
+              <span className="text-red-500">Powering Supply-Chains</span>,
+              Through Technology
             </h1>
 
             <p

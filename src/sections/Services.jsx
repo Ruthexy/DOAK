@@ -102,12 +102,15 @@ const Services = () => {
           }`}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Comprehensive Agribusiness Solutions
+            Comprehensive AgriTech Solutions
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            From field to market, we provide end-to-end solutions that optimize
-            every aspect of your agricultural supply chain. Our integrated
-            services ensure efficiency, quality, and profitability.
+            DOAK Integrated Resources is a technology-driven company, focused on
+            solving some of the region’s toughest challenges in supply chain
+            management, agricultural productivity, and data-driven
+            decision-making. We harness the power of research, digital
+            platforms, and information systems to make agriculture smarter,
+            supply chains more efficient, and businesses more competitive.
           </p>
         </div>
 
