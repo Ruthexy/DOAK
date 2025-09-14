@@ -119,7 +119,7 @@ const Navbar = () => {
                   key={item.href}
                   href={item.href}
                   onClick={(e) => scrollToSection(e, item.href)}
-                  className="text-gray-700 font-medium hover:text-red-600 transition-colors"
+                  className="text-white font-medium hover:text-red-600 transition-colors"
                 >
                   {item.label}
                 </a>
