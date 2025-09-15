@@ -21,7 +21,7 @@ const Navbar = () => {
     { href: "#testimonials", label: "Testimonials" },
     { href: "#insight", label: "Insight" },
     { href: "#contact", label: "Contact" },
-    {href:"vision-mission", label: "Vision & Mission"}
+    {href:"#vision-mission", label: "Vision & Mission"}
   ];
 
   const scrollToSection = (e, href) => {

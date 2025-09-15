@@ -5,7 +5,7 @@ import Hero from './sections/Hero';
 import Services from './sections/Services';
 import CaseStudies from './sections/CaseStudies';
 import Testimonials from './sections/Testimonials';
-import WhatWeDo from './sections/WhatWeDo';
+import WhatWeDo from './sections/Insight';
 import ContactCTA from './sections/ContactCTA';
 import VisionMission from './sections/VisionMission';
 import Footer from './components/Footer';
