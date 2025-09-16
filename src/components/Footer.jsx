@@ -1,22 +1,21 @@
-import React from "react";
-import Logo from "../assets/logo doak w bg.png";
+import React from 'react';
+import Logo from '../assets/logo-doak-w-bg.png';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white">
-      <div className="container mx-auto px-4 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+    <footer className='bg-gray-900 text-white'>
+      <div className='container mx-auto px-4 py-16'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8'>
           {/* Company Info */}
-          <div className="lg:col-span-2">
-            <div className="flex items-center space-x-3 mb-4">
+          <div className='lg:col-span-2'>
+            <div className='flex items-center space-x-3 mb-4'>
               <img
                 src={Logo}
-                alt="Doak Logo"
-                className="h-10 w-auto object-contain"
+                alt='Doak Logo'
+                className='h-10 w-auto object-contain'
               />
-              
             </div>
-            <p className="text-gray-300 mb-6 max-w-md">
+            <p className='text-gray-300 mb-6 max-w-md'>
               From Field to Market—Seamless Supply-Chains, Smarter
               Agri-Business. Leading commercial agribusiness solutions across
               the food-ag supply chain.
@@ -24,18 +23,16 @@ const Footer = () => {
 
             {/* Socials */}
 
-            <div className="flex space-x-4">
+            <div className='flex space-x-4'>
               <a
-                href="#"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
+                href='#'
+                className='text-gray-400 hover:text-white transition-colors'>
                 <svg
-                  className="w-6 h-6"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
+                  className='w-6 h-6'
+                  fill='currentColor'
+                  viewBox='0 0 24 24'>
                   <path
-                    d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 
+                    d='M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 
                   1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 
                   1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 
                   0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-
@@ -45,21 +42,19 @@ const Footer = () => {
                   3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 
                   2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 
                   0 14.307-7.721 13.995-14.646.962-.695 
-                  1.797-1.562 2.457-2.549z"
+                  1.797-1.562 2.457-2.549z'
                   />
                 </svg>
               </a>
               <a
-                href="#"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
+                href='#'
+                className='text-gray-400 hover:text-white transition-colors'>
                 <svg
-                  className="w-6 h-6"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
+                  className='w-6 h-6'
+                  fill='currentColor'
+                  viewBox='0 0 24 24'>
                   <path
-                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-
+                    d='M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-
                   1.852-3.037-1.853 0-2.136 1.445-2.136 
                   2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 
                   1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 
@@ -71,7 +66,7 @@ const Footer = () => {
                   0H1.771C.792 0 0 .774 0 1.729v20.542C0 
                   22.227.792 24 1.771 24h20.451C23.2 24 
                   24 22.227 24 20.271V1.729C24 .774 23.2 
-                  0 22.222 0h.003z"
+                  0 22.222 0h.003z'
                   />
                 </svg>
               </a>
@@ -80,37 +75,33 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Services</h3>
-            <ul className="space-y-2">
+            <h3 className='text-lg font-semibold mb-4'>Services</h3>
+            <ul className='space-y-2'>
               <li>
                 <a
-                  href="#services"
-                  className="text-gray-300 hover:text-white transition-colors"
-                >
+                  href='#services'
+                  className='text-gray-300 hover:text-white transition-colors'>
                   Commodity Trading
                 </a>
               </li>
               <li>
                 <a
-                  href="#services"
-                  className="text-gray-300 hover:text-white transition-colors"
-                >
+                  href='#services'
+                  className='text-gray-300 hover:text-white transition-colors'>
                   Warehousing
                 </a>
               </li>
               <li>
                 <a
-                  href="#services"
-                  className="text-gray-300 hover:text-white transition-colors"
-                >
+                  href='#services'
+                  className='text-gray-300 hover:text-white transition-colors'>
                   R&amp;D Solutions
                 </a>
               </li>
               <li>
                 <a
-                  href="#services"
-                  className="text-gray-300 hover:text-white transition-colors"
-                >
+                  href='#services'
+                  className='text-gray-300 hover:text-white transition-colors'>
                   IT Systems
                 </a>
               </li>
@@ -119,8 +110,8 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Contact</h3>
-            <div className="space-y-2 text-gray-300">
+            <h3 className='text-lg font-semibold mb-4'>Contact</h3>
+            <div className='space-y-2 text-gray-300'>
               <p>
                 📍 A05 Baraqa Mall, 69 Road, 6th Ave, Amac, 900018, Nigeria.
               </p>
@@ -131,27 +122,24 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm">
+        <div className='border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center'>
+          <p className='text-gray-400 text-sm'>
             © 2024 Doak. All rights reserved.
           </p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
+          <div className='flex space-x-6 mt-4 md:mt-0'>
             <a
-              href="#"
-              className="text-gray-400 hover:text-white text-sm transition-colors"
-            >
+              href='#'
+              className='text-gray-400 hover:text-white text-sm transition-colors'>
               Privacy Policy
             </a>
             <a
-              href="#"
-              className="text-gray-400 hover:text-white text-sm transition-colors"
-            >
+              href='#'
+              className='text-gray-400 hover:text-white text-sm transition-colors'>
               Terms of Service
             </a>
             <a
-              href="#"
-              className="text-gray-400 hover:text-white text-sm transition-colors"
-            >
+              href='#'
+              className='text-gray-400 hover:text-white text-sm transition-colors'>
               Cookie Policy
             </a>
           </div>
